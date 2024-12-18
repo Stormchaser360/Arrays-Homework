@@ -1,0 +1,28 @@
+<html>
+
+<body>
+    <h2>JavaScript Arrays</h2>
+    <p id="demo"></p>
+    <script>
+        var color = [
+            "White",
+            "Red",
+            "Cyan",
+            "Green",
+            "Yellow"
+        ];
+        var student = {
+            name: 'Moyin',
+            age: '12',
+            grade: '8',
+            hobbie: 'Swimming',
+            fav_sport: 'Basketball'
+        };
+        document.write("My name is : " + student.name, "<br>", "My favourite sport is : " + student.fav_sport, "<br>"
+        );
+        document.write("Before Popping These Are The Colors: " + color.join("^"), "<br>");
+        document.write("My Favourite Color Is : " + color[2], "<br>");
+    </script>
+</body>
+
+</html>
